@@ -1,0 +1,42 @@
+* {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(72, 121, 72);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link {
+    padding: 0.2em;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(0, 102, 128);
+    color: #fff;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .description {
+    max-width: 500px;
+    padding: 0.5em;
+  }
+  
